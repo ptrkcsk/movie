@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+"""Print one of Esquire's 100 best movies
+
+https://www.esquire.com/entertainment/movies/g226/best-movies-ever-0609/
+"""
+
+import random
+from typing import List
+
+movies: List[str] = [
+    '12 Angry Men', '12 Years a Slave', '8 ½', 'Alien', 'All About Eve',
+    'All Quiet on the Western Front', 'American Psycho', 'Back to the Future',
+    'Black Panther', 'Blade Runner', 'Blue Velvet', 'Bottle Rocket',
+    'Boyz in the Hood', 'Bridge on the River Kwai', 'Broadcast News',
+    'Brokeback Mountain', 'Cabaret', 'Caddyshack', 'Call Me By Your Name',
+    'Carol', 'Citizen Kane', 'City Lights', 'Coco', 'Cool Hand Luke', 'Creed',
+    'Crouching Tiger, Hidden Dragon', 'Dawn of the Dead', 'Days of Heaven',
+    'Detroit', 'Do the Right Thing', 'Dr. No', 'Dr. Strangelove',
+    'ET: The Extraterrestrial', 'First Blood', 'Fitzcarraldo', 'Get Out',
+    'Ghostbusters', 'Glory', 'Gommorah', 'Hiroshima Mon Amour',
+    'If Beale Street Could Talk', 'In the Heat of the Night', 'Interstellar',
+    'Iron Man', 'It Happened One Night', 'Jaws', 'Lady Bird',
+    'Love & Basketball', 'M', 'M*A*S*H', 'Mad Max: Fury Road', 'Mean Girls',
+    'Mean Streets', 'Memento', "Miller's Crossing", 'Moonlight',
+    'North by Northwest', 'On the Waterfront', 'Paddington 2',
+    "Pan's Labyrinth", 'Parasite', 'Pickpocket', 'Portrait of a Lady on Fire',
+    'Pulp Fiction', 'Raging Bull', 'Raiders of the Lost Arc', 'Reservoir Dogs',
+    'Roma', 'Save the Tiger', 'Selma', 'Seven Samurai', "Singin' in the Rain",
+    'Some Like It Hot', 'Spirited Away', 'Star Wars', 'The 400 Blows',
+    'The Bicycle Thief', 'The Exorcist', 'The Favourite', 'The Godfather',
+    'The Good, the Bad and the Ugly', 'The Great Dictator', 'The Great Escape',
+    'The Hurt Locker', 'The Lord of the Rings', 'The Maltese Falcon',
+    'The Matrix', 'The Rules of the Game', 'The Searchers', 'The Shining',
+    'The Social Network', 'The Terminator', 'The Three Colors Trilogy',
+    'The Treasure of the Sierra Madre', 'The Warriors', 'The Wizard of Oz',
+    'There Will Be Blood', 'Titanic', 'True Romance', "White Men Can't Jump"
+]
+
+print(random.choice(movies))
